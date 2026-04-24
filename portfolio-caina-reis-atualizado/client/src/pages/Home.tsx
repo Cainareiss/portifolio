@@ -328,10 +328,10 @@ function ExperienceSection() {
       ],
       techs: ["AutoCAD", "Figma", "Python", "IA"]
     },
-    {
-      company: "Freelance / Autônomo",
+   {
+      company: "Claeck super mercados",
       role: "Auxiliar de T.I.",
-      period: "2022 – Presente",
+      period: "2026 – Presente",
       location: "Fortaleza / CE",
       image: null,
       highlights: [

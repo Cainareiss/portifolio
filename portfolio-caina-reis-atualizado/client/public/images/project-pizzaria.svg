@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#0D0D0D"/>
+  <rect x="0" y="0" width="800" height="48" fill="#151515" rx="0"/>
+  <circle cx="20" cy="24" r="7" fill="#FF5F57"/>
+  <circle cx="44" cy="24" r="7" fill="#FEBC2E"/>
+  <circle cx="68" cy="24" r="7" fill="#28C840"/>
+  <text x="96" y="29" font-family="monospace" font-size="13" fill="#555">pizzaria-v2 — Firefox Developer Edition</text>
+  <rect x="0" y="48" width="800" height="402" fill="#111"/>
+  <!-- Header bar -->
+  <rect x="0" y="48" width="800" height="64" fill="#E63900"/>
+  <text x="32" y="88" font-family="monospace" font-size="22" font-weight="bold" fill="#fff">🍕 Pizzaria Online</text>
+  <text x="620" y="88" font-family="monospace" font-size="13" fill="#fff" opacity="0.8">Cardápio | Pedido | Zap</text>
+  <!-- Category tabs -->
+  <rect x="0" y="112" width="800" height="44" fill="#1a1a1a"/>
+  <rect x="20" y="120" width="80" height="28" fill="#E63900" rx="4"/>
+  <text x="30" y="139" font-family="monospace" font-size="12" fill="#fff">🍕 Pizzas</text>
+  <text x="118" y="139" font-family="monospace" font-size="12" fill="#888">🥟 Pastéis</text>
+  <text x="208" y="139" font-family="monospace" font-size="12" fill="#888">🥪 Sanduíches</text>
+  <text x="330" y="139" font-family="monospace" font-size="12" fill="#888">🥤 Bebidas</text>
+  <!-- Pizza cards -->
+  <rect x="20" y="168" width="235" height="160" fill="#1e1e1e" rx="8" stroke="#E63900" stroke-width="1"/>
+  <rect x="20" y="168" width="235" height="90" fill="#2a1a10" rx="8"/>
+  <text x="112" y="220" font-family="monospace" font-size="32" text-anchor="middle">🍕</text>
+  <text x="32" y="278" font-family="monospace" font-size="13" font-weight="bold" fill="#fff">Pizza Mussarela</text>
+  <text x="32" y="296" font-family="monospace" font-size="10" fill="#888">Mussarela, tomate, cebola...</text>
+  <text x="32" y="316" font-family="monospace" font-size="14" font-weight="bold" fill="#E63900">R$ 29,00</text>
+  <rect x="178" y="305" width="64" height="24" fill="#E63900" rx="4"/>
+  <text x="192" y="321" font-family="monospace" font-size="11" fill="#fff">+ Pedir</text>
+
+  <rect x="275" y="168" width="235" height="160" fill="#1e1e1e" rx="8" stroke="#E63900" stroke-width="1"/>
+  <rect x="275" y="168" width="235" height="90" fill="#2a1a10" rx="8"/>
+  <text x="392" y="220" font-family="monospace" font-size="32" text-anchor="middle">🍕</text>
+  <text x="287" y="278" font-family="monospace" font-size="13" font-weight="bold" fill="#fff">Pizza Calabresa</text>
+  <text x="287" y="296" font-family="monospace" font-size="10" fill="#888">Mussarela, calabresa...</text>
+  <text x="287" y="316" font-family="monospace" font-size="14" font-weight="bold" fill="#E63900">R$ 29,00</text>
+  <rect x="433" y="305" width="64" height="24" fill="#E63900" rx="4"/>
+  <text x="447" y="321" font-family="monospace" font-size="11" fill="#fff">+ Pedir</text>
+
+  <rect x="530" y="168" width="245" height="160" fill="#1e1e1e" rx="8" stroke="#E63900" stroke-width="1"/>
+  <rect x="530" y="168" width="245" height="90" fill="#2a1a10" rx="8"/>
+  <text x="652" y="220" font-family="monospace" font-size="32" text-anchor="middle">🍕</text>
+  <text x="542" y="278" font-family="monospace" font-size="13" font-weight="bold" fill="#fff">Pizza Carne do Sol</text>
+  <text x="542" y="296" font-family="monospace" font-size="10" fill="#888">Mussarela, carne do sol...</text>
+  <text x="542" y="316" font-family="monospace" font-size="14" font-weight="bold" fill="#E63900">R$ 33,00</text>
+  <rect x="689" y="305" width="64" height="24" fill="#E63900" rx="4"/>
+  <text x="703" y="321" font-family="monospace" font-size="11" fill="#fff">+ Pedir</text>
+
+  <!-- Cart badge -->
+  <rect x="680" y="58" width="100" height="32" fill="#fff" rx="16"/>
+  <text x="700" y="79" font-family="monospace" font-size="12" fill="#E63900" font-weight="bold">🛒 3 itens</text>
+  
+  <!-- Customizer hint -->
+  <rect x="20" y="348" width="755" height="80" fill="#1a1a1a" rx="8" stroke="#E63900" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="400" y="378" font-family="monospace" font-size="13" fill="#E63900" text-anchor="middle" font-weight="bold">🍕 Monte sua Pizza — até 4 sabores</text>
+  <text x="400" y="400" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">Tamanho · Borda · Sabores · Preço = o mais caro entre os sabores</text>
+  <text x="400" y="418" font-family="monospace" font-size="11" fill="#555" text-anchor="middle">Peq. R$24 | Méd. R$29 | Grande R$35 | Gigante R$43</text>
+</svg>

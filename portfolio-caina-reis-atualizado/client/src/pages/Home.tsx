@@ -89,7 +89,7 @@ function Navigation() {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="font-mono text-primary text-lg font-bold hover:text-secondary transition-colors">
+          <a href="#" className="font-mono text-primary text-lg font-bold hover:text-secondary transition-colors glitch" data-text="<CR />">
             {"<CR />"}
           </a>
 
@@ -170,7 +170,7 @@ function HeroSection() {
 
           {/* Name with typing effect */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-mono mb-4">
-            <span className="text-primary neon-glow">{nameText}</span>
+            <span className="text-primary neon-glow glitch" data-text="Cainã Reis">{nameText}</span>
             <span className={nameComplete ? "animate-pulse" : ""}>_</span>
           </h1>
 
@@ -500,9 +500,18 @@ function ProjectsSection() {
       title: "Sistema de Notas Fiscais",
       description: "Sistema interno para gerenciamento, organização e automação de processos envolvendo notas fiscais.",
       image: "/images/project-notas.png",
-      link: "https://github.com/Cainareiss", // Substitua com o link direto do repositório
+      link: "https://github.com/Cainareiss",
       isHosted: false,
       techs: ["Python", "Flask", "SQLite"]
+    },
+    {
+      id: "pizzaria-v2",
+      title: "Pizzaria Online",
+      description: "Site completo de pizzaria com cardápio dinâmico, customizador de pizzas por sabor/tamanho/borda, carrinho de compras, checkout e redirecionamento automático ao WhatsApp.",
+      image: "/images/project-pizzaria.svg",
+      link: "https://github.com/Cainareiss",
+      isHosted: false,
+      techs: ["React", "Node.js", "SQLite", "Vite", "Tailwind CSS"]
     }
   ];
 
@@ -935,7 +944,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-mono text-sm text-muted-foreground">
             <span className="text-secondary">{"// "}</span>
-            Desenvolvido por <span className="text-primary">Cainã Reis</span> | 2025
+            Desenvolvido por <span className="text-primary">Cainã Reis</span> | 2026
           </div>
           <div className="font-mono text-sm text-muted-foreground">
             <span className="text-secondary">{"<"}</span>

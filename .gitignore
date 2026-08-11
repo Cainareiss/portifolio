@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+.vscode/
+.env
+.env.local
+.DS_Store
+public/build/
+
+# pnpm
+.pnpm-debug.log
+pnpm-lock.yaml
+
+# local env
+.idea/
+*.log
+
+# OS files
+Thumbs.db

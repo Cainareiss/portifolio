@@ -273,7 +273,7 @@ function AboutSection() {
               {/* Quick stats */}
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="brutal-card p-4">
-                  <div className="font-mono text-3xl text-primary font-bold">2+</div>
+                  <div className="font-mono text-3xl text-primary font-bold">4+</div>
                   <div className="font-mono text-sm text-muted-foreground">Anos de experiência</div>
                 </div>
                 <div className="brutal-card p-4">
@@ -315,11 +315,25 @@ function ExperienceSection() {
 
   const experiences = [
     {
+      company: "CALLMED",
+      role: "Estágio em Suporte Técnico",
+      period: "Outubro 2021 – Abril 2022",
+      location: "Fortaleza / CE",
+      image: null,
+      highlights: [
+        "Gerenciamento e configuração de servidores corporativos",
+        "Desenvolvimento de protótipo de servidor para gestão de usuários em Python",
+        "Rotinas de backups, monitoramento e controle de licenciamento",
+        "Gerenciamento de infraestrutura de redes corporativas"
+      ],
+      techs: ["Python", "SQLite", "Flask", "Tkinter", "Redes"]
+    },
+    {
       company: "PROTEKSEG",
       role: "Estágio em Arquiteto de Soluções de T.I.",
       period: "Julho 2024 – Janeiro 2025",
       location: "Fortaleza / CE",
-      image: "/images/experience-protekseg.png",
+      image: null,
       highlights: [
         "Desenvolvimento e planejamento de projetos de CFTV e controle de acesso",
         "Elaboração de plantas técnicas com AutoCAD e prototipação com Figma",
@@ -328,10 +342,10 @@ function ExperienceSection() {
       ],
       techs: ["AutoCAD", "Figma", "Python", "IA"]
     },
-   {
-      company: "Claeck super mercados",
+    {
+      company: "Claeck Supermercados",
       role: "Auxiliar de T.I.",
-      period: "2026 – Presente",
+      period: "Fevereiro 2026 – Maio 2026",
       location: "Fortaleza / CE",
       image: null,
       highlights: [
@@ -343,18 +357,18 @@ function ExperienceSection() {
       techs: ["Hardware", "Redes", "CRM", "Suporte"]
     },
     {
-      company: "CALLMED",
-      role: "Estágio em Suporte Técnico",
-      period: "Outubro 2021 – Abril 2022",
+      company: "Multimedia",
+      role: "Implantador de Sistemas",
+      period: "Maio 2026 – Presente",
       location: "Fortaleza / CE",
-      image: "/images/experience-callmed.png",
+      image: null,
       highlights: [
-        "Gerenciamento e configuração de servidores corporativos",
-        "Desenvolvimento de protótipo de servidor para gestão de usuários em Python",
-        "Rotinas de backups, monitoramento e controle de licenciamento",
-        "Gerenciamento de infraestrutura de redes corporativas"
+        "Implantação, configuração e acompanhamento de soluções de sistemas em ambientes corporativos",
+        "Atuação direta no suporte técnico, na análise de requisitos e na resolução de problemas operacionais",
+        "Garantia de funcionamento contínuo por meio de testes, ajustes e acompanhamento pós-implantação",
+        "Contribuição para a melhoria de processos com foco em eficiência e experiência do usuário"
       ],
-      techs: ["Python", "SQLite", "Flask", "Tkinter", "Redes"]
+      techs: ["Implantação", "Suporte Técnico", "Análise de Requisitos", "Sistemas"]
     },
     {
       company: "Concentrix",

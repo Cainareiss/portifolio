@@ -291,7 +291,7 @@ function AboutSection() {
 
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="brutal-card p-4">
-                  <div className="font-mono text-3xl text-primary font-bold">2+</div>
+                  <div className="font-mono text-3xl text-primary font-bold">4+</div>
                   <div className="font-mono text-sm text-muted-foreground">Anos de experiência</div>
                 </div>
                 <div className="brutal-card p-4">
@@ -363,7 +363,7 @@ function ExperienceSection() {
     {
       company: "Claeck Supermercados",
       role: "Auxiliar de T.I.",
-      period: "Janeiro 2026 – Maio 2026",
+      period: "Fevereiro 2026 – Maio 2026",
       location: "Fortaleza / CE",
       image: null,
       highlights: [
